@@ -60,7 +60,7 @@ workflow ctat_mutations {
 
         File? intervals
       
-        Boolean annotate_variants = true
+        Boolean annotate_variants = false
 
 
         # annotation options
