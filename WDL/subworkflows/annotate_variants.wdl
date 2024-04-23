@@ -14,17 +14,17 @@ workflow annotate_variants_wf {
         File? bam_index
 
         # annotation options
-        Boolean incl_snpEff = true
-        Boolean incl_dbsnp = true
-        Boolean incl_gnomad = true
-        Boolean incl_rna_editing = true
-        Boolean include_read_var_pos_annotations = true
-        Boolean incl_repeats = true
-        Boolean incl_homopolymers = true
-        Boolean incl_splice_dist = true
-        Boolean incl_blat_ED = true
-        Boolean incl_cosmic = true
-        Boolean incl_cravat = true
+        Boolean incl_snpEff = false
+        Boolean incl_dbsnp = false
+        Boolean incl_gnomad = false
+        Boolean incl_rna_editing = false
+        Boolean include_read_var_pos_annotations = false
+        Boolean incl_repeats = false
+        Boolean incl_homopolymers = false
+        Boolean incl_splice_dist = false
+        Boolean incl_blat_ED = false
+        Boolean incl_cosmic = false
+        Boolean incl_cravat = false
 
         Boolean singlecell_mode = false
 
